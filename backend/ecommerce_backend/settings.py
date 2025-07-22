@@ -138,7 +138,7 @@ STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
 
 # Email settings
 SENDGRID_API_KEY = config('SENDGRID_API_KEY')
-EMAIL_BACKEND = 'sendgrid_backend.SendgridBackend'
+EMAIL_BACKEND = "sgbackend.SendGridBackend"
 DEFAULT_FROM_EMAIL = config('EMAIL_FROM')
 
 # Internationalization
